@@ -28,7 +28,7 @@ import com.nikitagordia.cosin.colorAdapters.DefaultColoradapterGB;
 import com.nikitagordia.cosin.textAdapters.DefaultBinaryTextAdapter;
 
 /**
- * Created by nikitagordia on 05.03.18.
+ * Created by nikitagordia on 04.03.18.
  */
 public class Cosin extends Component implements Component.DrawTask {
     private static final double DOUBLE_PI = Math.PI * 2d;
