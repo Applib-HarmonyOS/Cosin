@@ -30,7 +30,7 @@ import com.nikitagordia.cosin.colorAdapters.ColorAdapterBR;
 import com.nikitagordia.cosin.colorAdapters.ColorAdapterGR;
 import com.nikitagordia.cosin.colorAdapters.ColorAdapterRB;
 import com.nikitagordia.cosin.colorAdapters.ColorAdapterRG;
-import com.nikitagordia.cosin.colorAdapters.DefaultColoradapterGB;
+import com.nikitagordia.cosin.colorAdapters.DefaultColorAdapterGB;
 import com.nikitagordia.cosin.textAdapters.DefaultBinaryTextAdapter;
 import com.nikitagordia.cosin.textAdapters.WordTextAdapter;
 import com.nikitagordia.cosinloading.ResourceTable;
@@ -226,7 +226,7 @@ public class MainAbilitySlice extends AbilitySlice {
                     cosin.setColorAdapter(new ColorAdapterBG());
                     break;
                 case COLOR_ADAPTER_GB :
-                    cosin.setColorAdapter(new DefaultColoradapterGB());
+                    cosin.setColorAdapter(new DefaultColorAdapterGB());
                     break;
                 default :
                     break;

@@ -6,7 +6,7 @@ import com.nikitagordia.cosin.Cosin;
 /**
  * Created by nikitagordia on 05.03.18.
  */
-public class DefaultColoradapterGB implements Cosin.ColorAdapter {
+public class DefaultColorAdapterGB implements Cosin.ColorAdapter {
 
     @Override
     public int getBackgroundColor() {
