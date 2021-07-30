@@ -1,1 +1,1 @@
-include ':app', ':cosin'
+include ':entry', ':cosin'

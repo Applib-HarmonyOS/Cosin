@@ -1,0 +1,16 @@
+{
+  "color": [
+    {
+      "name": "color_1",
+      "value": "#ff0000"
+    },
+    {
+      "name": "back",
+      "value": "#ececec"
+    },
+    {
+      "name": "black",
+      "value": "#000000"
+    }
+  ]
+}
