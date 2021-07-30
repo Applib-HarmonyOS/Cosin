@@ -25,14 +25,14 @@ import ohos.agp.components.Slider;
 import ohos.agp.components.Text;
 import ohos.agp.components.TextField;
 import com.nikitagordia.cosin.Cosin;
-import com.nikitagordia.cosin.colorAdapters.ColorAdapterBG;
-import com.nikitagordia.cosin.colorAdapters.ColorAdapterBR;
-import com.nikitagordia.cosin.colorAdapters.ColorAdapterGR;
-import com.nikitagordia.cosin.colorAdapters.ColorAdapterRB;
-import com.nikitagordia.cosin.colorAdapters.ColorAdapterRG;
-import com.nikitagordia.cosin.colorAdapters.DefaultColorAdapterGB;
-import com.nikitagordia.cosin.textAdapters.DefaultBinaryTextAdapter;
-import com.nikitagordia.cosin.textAdapters.WordTextAdapter;
+import com.nikitagordia.cosin.coloradapters.ColorAdapterBg;
+import com.nikitagordia.cosin.coloradapters.ColorAdapterBr;
+import com.nikitagordia.cosin.coloradapters.ColorAdapterGr;
+import com.nikitagordia.cosin.coloradapters.ColorAdapterRb;
+import com.nikitagordia.cosin.coloradapters.ColorAdapterRg;
+import com.nikitagordia.cosin.coloradapters.DefaultColorAdapterGb;
+import com.nikitagordia.cosin.textadapters.DefaultBinaryTextAdapter;
+import com.nikitagordia.cosin.textadapters.WordTextAdapter;
 import com.nikitagordia.cosinloading.ResourceTable;
 
 /**
@@ -211,22 +211,22 @@ public class MainAbilitySlice extends AbilitySlice {
         colorAdapter.setMarkChangedListener((radioContainer, i) -> {
             switch (i) {
                 case COLOR_ADAPTER_RB :
-                    cosin.setColorAdapter(new ColorAdapterRB());
+                    cosin.setColorAdapter(new ColorAdapterRb());
                     break;
                 case COLOR_ADAPTER_BR :
-                    cosin.setColorAdapter(new ColorAdapterBR());
+                    cosin.setColorAdapter(new ColorAdapterBr());
                     break;
                 case COLOR_ADAPTER_RG :
-                    cosin.setColorAdapter(new ColorAdapterRG());
+                    cosin.setColorAdapter(new ColorAdapterRg());
                     break;
                 case COLOR_ADAPTER_GR :
-                    cosin.setColorAdapter(new ColorAdapterGR());
+                    cosin.setColorAdapter(new ColorAdapterGr());
                     break;
                 case COLOR_ADAPTER_BG :
-                    cosin.setColorAdapter(new ColorAdapterBG());
+                    cosin.setColorAdapter(new ColorAdapterBg());
                     break;
                 case COLOR_ADAPTER_GB :
-                    cosin.setColorAdapter(new DefaultColorAdapterGB());
+                    cosin.setColorAdapter(new DefaultColorAdapterGb());
                     break;
                 default :
                     break;

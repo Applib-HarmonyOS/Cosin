@@ -1,4 +1,4 @@
-package com.nikitagordia.cosin.textAdapters;
+package com.nikitagordia.cosin.textadapters;
 
 import com.nikitagordia.cosin.Cosin;
 

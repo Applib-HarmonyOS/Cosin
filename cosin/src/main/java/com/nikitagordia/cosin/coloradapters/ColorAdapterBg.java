@@ -1,4 +1,4 @@
-package com.nikitagordia.cosin.colorAdapters;
+package com.nikitagordia.cosin.coloradapters;
 
 import ohos.agp.utils.Color;
 import com.nikitagordia.cosin.Cosin;
@@ -6,7 +6,7 @@ import com.nikitagordia.cosin.Cosin;
 /**
  * Created by nikitagordia on 05.03.18.
  */
-public class ColorAdapterBG implements Cosin.ColorAdapter {
+public class ColorAdapterBg implements Cosin.ColorAdapter {
 
     @Override
     public int getBackgroundColor() {

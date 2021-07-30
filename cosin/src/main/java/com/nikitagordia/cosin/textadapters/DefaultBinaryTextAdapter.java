@@ -1,8 +1,8 @@
-package com.nikitagordia.cosin.textAdapters;
+package com.nikitagordia.cosin.textadapters;
 
 import com.nikitagordia.cosin.Cosin;
+import java.security.SecureRandom;
 import java.util.Date;
-import java.util.Random;
 
 /**
  * Created by nikitagordia on 05.03.18.
@@ -10,10 +10,10 @@ import java.util.Random;
 public class DefaultBinaryTextAdapter implements Cosin.TextAdapter {
     private static final char ZERO = '0';
     private static final char ONE = '1';
-    private Random random;
+    private SecureRandom random;
 
     public DefaultBinaryTextAdapter() {
-        random = new Random(new Date().getTime());
+        random = new SecureRandom(String.valueOf(new Date().getTime()).getBytes());
     }
 
     @Override

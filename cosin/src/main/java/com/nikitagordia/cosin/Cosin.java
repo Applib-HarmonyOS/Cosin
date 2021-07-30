@@ -24,8 +24,8 @@ import ohos.agp.render.Paint;
 import ohos.agp.text.Font;
 import ohos.agp.utils.Color;
 import ohos.app.Context;
-import com.nikitagordia.cosin.colorAdapters.DefaultColorAdapterGB;
-import com.nikitagordia.cosin.textAdapters.DefaultBinaryTextAdapter;
+import com.nikitagordia.cosin.coloradapters.DefaultColorAdapterGb;
+import com.nikitagordia.cosin.textadapters.DefaultBinaryTextAdapter;
 
 /**
  * Created by nikitagordia on 04.03.18.
@@ -81,7 +81,7 @@ public class Cosin extends Component implements Component.DrawTask {
         paintText.setFont(Font.DEFAULT_BOLD);
         paintBack.setColor(new Color(Color.argb(255, 255, 255, 255)));
         paint.setColor(Color.GREEN);
-        colorAdapter = new DefaultColorAdapterGB();
+        colorAdapter = new DefaultColorAdapterGb();
         textAdapter = new DefaultBinaryTextAdapter();
         addDrawTask(this);
     }
