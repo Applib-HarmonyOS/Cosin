@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="$color:back">
+
+    <com.nikitagordia.cosin.Cosin
+        ohos:id="$+id:cosin"
+        ohos:height="130vp"
+        ohos:width="270px"
+        ohos:margin="20vp"
+        ohos:layout_alignment="center"
+        />
+
+    <ScrollView
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:start_margin="8vp"
+        ohos:orientation="vertical"
+        ohos:weight="1">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical"
+            ohos:margin="7vp">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                >
+
+                <Checkbox
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:id="$+id:is_loading"
+                    ohos:top_margin="25vp"
+                    ohos:text="$string:data_is_loading"
+                    ohos:text_size="$string:text_size"
+                    ohos:start_margin="5vp"
+                    />
+
+                <Component
+                    ohos:height="45vp"
+                    ohos:width="1vp"
+                    ohos:top_margin="15vp"
+                    ohos:left_margin="10vp"
+                    ohos:right_margin="10vp"
+                    ohos:layout_alignment="horizontal_center"
+                    ohos:background_element="$graphic:vertical_divider"/>
+
+                <Checkbox
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="$string:direction_is_right"
+                    ohos:text_size="$string:text_size"
+                    ohos:id="$+id:dir"
+                    ohos:start_margin="5vp"
+                    ohos:top_margin="25vp"
+                    />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:rect_width"
+                        ohos:text_size="$string:text_size"
+                        ohos:left_margin="10vp"
+                        ohos:top_margin="20vp" />
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:id="$+id:tv_rect_width"
+                        ohos:text="$string:ten"
+                        ohos:margin="20vp"/>
+
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:margin="10vp"
+                    ohos:progress="$string:ten"
+                    ohos:id="$+id:rect_width" />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical" >
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:view_width"
+                        ohos:text_size="$string:text_size"
+                        ohos:margin="10vp" />
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:ten"
+                        ohos:id="$+id:tv_view_width"
+                        ohos:text_size="$string:text_size"
+                        ohos:margin="10vp" />
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:margin="10vp"
+                    ohos:progress="34"
+                    ohos:id="$+id:view_width" />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:view_height"
+                        ohos:text_size="$string:text_size"
+                        ohos:margin="10vp" />
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:ten"
+                        ohos:text_size="$string:text_size"
+                        ohos:margin="10vp"
+                        ohos:id="$+id:tv_view_height" />
+
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:margin="10vp"
+                    ohos:progress="34"
+                    ohos:id="$+id:view_height" />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal" >
+
+                <RadioContainer
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:id="$+id:period"
+                    ohos:top_margin="20vp"
+                    ohos:left_margin="20vp"
+                    ohos:text_size="$string:text_size"
+                    ohos:orientation="horizontal">
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:margin="5vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:pi_by_2"
+                        ohos:id="$+id:p0"/>
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:margin="5vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:pi"
+                        ohos:id="$+id:p1" />
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:margin="5vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:pi_2"
+                        ohos:id="$+id:p2" />
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:margin="5vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:pi_5"
+                        ohos:id="$+id:p3" />
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:margin="5vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:pi_10"
+                        ohos:id="$+id:p4" />
+
+                </RadioContainer>
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:speed"
+                        ohos:top_margin="20vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:left_margin="10vp" />
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:id="$+id:tv_speed"
+                        ohos:text="$string:ten"
+                        ohos:top_margin="20vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:left_margin="30vp" />
+
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:progress="$string:three_four"
+                    ohos:margin="10vp"
+                    ohos:id="$+id:speed" />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:color_adapter"
+                        ohos:margin="10vp" />
+
+                </DirectionalLayout>
+
+                <RadioContainer
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="vertical"
+                    ohos:id="$+id:color_adapter"
+                    ohos:margin="10vp">
+
+                    <RadioButton
+                        ohos:id="$+id:gb"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:ca_gb" />
+
+                    <RadioButton
+                        ohos:id="$+id:bg"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:ca_bg" />
+
+                    <RadioButton
+                        ohos:id="$+id:rg"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:ca_rg" />
+
+                    <RadioButton
+                        ohos:id="$+id:gr"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:ca_gr" />
+
+                    <RadioButton
+                        ohos:id="$+id:br"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:ca_br" />
+
+                    <RadioButton
+                        ohos:id="$+id:rb"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:ca_rb" />
+
+                </RadioContainer>
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:offset"
+                        ohos:text_size="$string:text_size"
+                        ohos:margin="10vp" />
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:id="$+id:tv_offset"
+                        ohos:text="$string:ten"
+                        ohos:top_margin="10vp"
+                        ohos:text_size="$string:text_size"
+                        ohos:left_margin="20vp" />
+
+                </DirectionalLayout>
+
+                <Slider
+                    ohos:id="$+id:offset"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:margin="10vp"
+                    ohos:progress="$string:three_four" />
+
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical">
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:text="$string:text_adapter"
+                    ohos:text_size="$string:text_size"
+                    ohos:margin="10vp" />
+
+                <RadioContainer
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:orientation="horizontal"
+                    ohos:text_size="$string:text_size"
+                    ohos:id="$+id:rect_text">
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:id="$+id:binary"
+                        ohos:text_size="$string:text_size"
+                        ohos:text="$string:binary" />
+
+                    <RadioButton
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="$string:text"
+                        ohos:text_size="$string:text_size"
+                        ohos:id="$+id:rb_text" />
+
+                </RadioContainer>
+
+                <TextField
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:margin="8vp"
+                    ohos:text_size="$string:text_size"
+                    ohos:background_element="#FF9DACD9"
+                    ohos:id="$+id:et_text"
+                    />
+
+            </DirectionalLayout>
+
+            <Button
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="10vp"
+                ohos:padding="8vp"
+                ohos:background_element="#FF4670DE"
+                ohos:text_size="$string:text_size"
+                ohos:text="$string:stop"
+                ohos:id="$+id:stop" />
+
+        </DirectionalLayout>
+
+    </ScrollView>
+
+</DirectionalLayout>

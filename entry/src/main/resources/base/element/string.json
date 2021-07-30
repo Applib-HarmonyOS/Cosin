@@ -1,0 +1,124 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "cosinloading"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "data_is_loading",
+      "value": "Data is loading"
+    },
+    {
+      "name": "direction_is_right",
+      "value": "Direction is right"
+    },
+    {
+      "name": "rect_width",
+      "value": "Rect width :"
+    },
+    {
+      "name": "view_height",
+      "value": "View height :"
+    },
+    {
+      "name": "view_width",
+      "value": "View width :"
+    },
+    {
+      "name": "pi_by_2",
+      "value": "PI / 2"
+    },
+    {
+      "name": "pi",
+      "value": "PI"
+    },
+    {
+      "name": "pi_2",
+      "value": "2 * PI"
+    },
+    {
+      "name": "pi_5",
+      "value": "5 * PI"
+    },
+    {
+      "name": "pi_10",
+      "value": "10 * PI"
+    },
+    {
+      "name": "speed",
+      "value": "Speed :"
+    },
+    {
+      "name": "color_adapter",
+      "value": "Color adapter :"
+    },
+    {
+      "name": "ca_gb",
+      "value": "Color adapter Green - Blue"
+    },
+    {
+      "name": "ca_bg",
+      "value": "Color adapter Blue - Green"
+    },
+    {
+      "name": "ca_rg",
+      "value": "Color adapter Red - Green"
+    },
+    {
+      "name": "ca_gr",
+      "value": "Color adapter Green - Red"
+    },
+    {
+      "name": "ca_br",
+      "value": "Color adapter Blue - Red"
+    },
+    {
+      "name": "ca_rb",
+      "value": "Color adapter Red - Blue"
+    },
+    {
+      "name": "offset",
+      "value": "Offset :"
+    },
+    {
+      "name": "text_adapter",
+      "value": "TextAdapter :"
+    },
+    {
+      "name": "binary",
+      "value": "Binary"
+    },
+    {
+      "name": "text",
+      "value": "Text"
+    },
+    {
+      "name": "stop",
+      "value": "STOP"
+    },
+    {
+      "name": "text_size",
+      "value": "15vp"
+    },
+    {
+      "name": "hint_text",
+      "value": "Enter text here"
+    },
+    {
+      "name": "three_four",
+      "value": "34"
+    },
+    {
+      "name": "ten",
+      "value": "10"
+    }
+  ]
+}
