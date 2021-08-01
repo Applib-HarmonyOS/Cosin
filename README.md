@@ -2,7 +2,18 @@
 	<h2 align="center""><b><font size="36">COSIN</font></b></h2>
 	<h4 align="center">Loading android view lib</h4>
 </p>
-
+			  
+<p align="center">
+	<img src="github/1.png" width="250" height="483"  />
+	<img src="github/2.png" width="250" height="483" />
+	<img src="github/3.png" width="250" height="483" />
+</p>
+<p align="center">
+	<img src="github/4.png" width="250" height="483"  />
+	<img src="github/5.png" width="250" height="483" />
+	<img src="github/6.png" width="250" height="483" />
+</p>
+							
 ## Source
 This library is inspired by the [Cosin](https://github.com/NikitaGordia/Cosin) library version 1.1.0
 
@@ -98,3 +109,10 @@ public class WordTextAdapter implements Cosin.TextAdapter {
     }
 }
 ```
+#### A bit more gifs
+<p align="center">
+	<img src="github/1.gif" width="200" height="425"  />
+	<img src="github/2.gif" width="200" height="425" />
+	<img src="github/3.gif" width="200" height="425" />
+	<img src="github/4.gif" width="200" height="425" />
+</p>
