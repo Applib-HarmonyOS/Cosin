@@ -35,6 +35,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 ```
+3. For using Cosin from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+``` java
+dependencies {
+    implementation 'dev.applibgroup:cosin:1.0.0'
+    testCompile 'junit:junit:4.12'
+}
+```
 
 ## Features
 ## Properties
