@@ -1,3 +1,5 @@
+[![Build](https://github.com/applibgroup/Cosin/actions/workflows/main.yml/badge.svg)](https://github.com/applibgroup/Cosin/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=applibgroup_Cosin&metric=alert_status)](https://sonarcloud.io/dashboard?id=applibgroup_Cosin)
 <p align="center">
 	<h2 align="center""><b><font size="36">COSIN</font></b></h2>
 	<h4 align="center">Loading HMOS view lib</h4>
