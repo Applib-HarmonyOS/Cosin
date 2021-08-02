@@ -1,6 +1,6 @@
 <p align="center">
 	<h2 align="center""><b><font size="36">COSIN</font></b></h2>
-	<h4 align="center">Loading android view lib</h4>
+	<h4 align="center">Loading HMOS view lib</h4>
 </p>
 			  
 <p align="center">
