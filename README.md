@@ -18,7 +18,7 @@
 This library is inspired by the [Cosin](https://github.com/NikitaGordia/Cosin) library version 1.1.0
 
 ## Dependency
-1. For using Cosin module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/mayi.har.
+1. For using Cosin module in sample app, include the source code and add the below dependencies in entry/build.gradle to generate hap/cosin.har.
 ```java
 dependencies {
     implementation project(':cosin')
